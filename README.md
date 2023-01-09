@@ -1,4 +1,4 @@
-# PLayer-Music
+# PLayer Music
 Projeto criado com inspiração no #boraCodar da @rocketseat.
 
 Onde o desafio foi criar um player de Musica, onde utilizei HMTL/CSS/JAVASCRIPT.
