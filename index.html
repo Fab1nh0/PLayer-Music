@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <!--Tag link de importação dos ícones do site fontawesome-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <title>PLayer Music</title>
+</head>
+
+<body>
+
+            <!--player começando com imagem, sendo o principal-->
+        <img src="imagens/florencia-viadana-MyQnvbU7T8I-unsplash.jpg" >
+        
+            <!-- primeira Div sendo responsável pela descrição da música/cantor-->
+        <div class="descricao">
+            <h2>Nome da Música</h2>
+            <i>Nome do Artista</i>
+        </div>
+
+            <!-- segunda div utilizando mais algumas dentro das mesmas sendo 
+            toda a parte da barra de execução da música-->
+        <div class="duracao">
+            <!--Div 1-->
+            <div class="barra">
+                <progress value="0" max="1"> </progress>
+                <div class="ponto"></div>
+            </div>
+            <!--Div 2-->
+            <div class="tempo">
+                <p class="inicio">0:00</p>
+                <p class="fim">3:40</p>
+            </div>
+        </div>
+
+        <!-- Ícones dos player importando do site fontawesome na v"5.15.4" -->
+        <div class="player"> 
+            <i class="fas fa-step-backward setas anterior"></i>
+            <i class="fas fa-play-circle botao-play"></i>
+            <i class="fas fa-pause-circle botao-pause"></i>
+            <i class="fas fa-step-forward setas proxima"></i>
+        </div>
+
+    <audio src="musicas/musica.mp3"></audio>
+    <script src="script.js"></script>
+</body>
+
+</html>
